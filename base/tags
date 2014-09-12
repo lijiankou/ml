@@ -1,0 +1,286 @@
+.PHONY	makefile	/^.PHONY:main$/
+.PHONY	makefile	/^.PHONY:run$/
+.PHONY	makefile	/^.PHONY:clean$/
+.PHONY	makefile	/^.PHONY:shared$/
+Add	stl_util.h	/^inline void Add(const VInt &src, VInt* des) {$/
+Append	base.cc	/^void Append(const VReal &src, VReal* des) {$/
+Append	base.cc	/^void Append(const VVReal &src, VReal* des) {$/
+Append	base.cc	/^void Append(const VVVReal &src, VReal* des) {$/
+BASE_BASE_HEAH_H_	base_head.h	4
+BASE_BASE_H_	base.h	4
+BASE_C_UTIL_H_	c_util.h	4
+BASE_IO_UTIL_H_	io_util.h	4
+BASE_JOIN_H_	join.h	4
+BASE_MATH_UTIL_H_	math_util.h	4
+BASE_PROBABILITY_H_	probability.h	4
+BASE_RANDOM_H_	random.h	4
+BASE_STAT_H_	stat.h	4
+BASE_STL_UTIL_H_	stl_util.h	4
+BASE_STRING_UTIL_H_	string_util.h	4
+BASE_TEST_H_	test.h	2
+BASE_TYPE_H_	type.h	4
+BaseDir	makefile	/^BaseDir:=..\/$/
+BaseName	cpplint.py	/^  def BaseName(self):$/
+Begin	cpplint.py	/^  def Begin(self, function_name):$/
+CanonicalizeAlphabeticalOrder	cpplint.py	/^  def CanonicalizeAlphabeticalOrder(self, header_p/
+Check	cpplint.py	/^  def Check(self, error, filename, linenum):$/
+CheckAccess	cpplint.py	/^def CheckAccess(filename, clean_lines, linenum, ne/
+CheckAltTokens	cpplint.py	/^def CheckAltTokens(filename, clean_lines, linenum,/
+CheckBegin	cpplint.py	/^  def CheckBegin(self, filename, clean_lines, line/
+CheckBegin	cpplint.py	/^  def CheckBegin(self, filename, clean_lines, line/
+CheckBraces	cpplint.py	/^def CheckBraces(filename, clean_lines, linenum, er/
+CheckCStyleCast	cpplint.py	/^def CheckCStyleCast(filename, linenum, line, raw_l/
+CheckCheck	cpplint.py	/^def CheckCheck(filename, clean_lines, linenum, err/
+CheckComment	cpplint.py	/^def CheckComment(comment, filename, linenum, error/
+CheckCompletedBlocks	cpplint.py	/^  def CheckCompletedBlocks(self, filename, error):/
+CheckEmptyBlockBody	cpplint.py	/^def CheckEmptyBlockBody(filename, clean_lines, lin/
+CheckEnd	cpplint.py	/^  def CheckEnd(self, filename, clean_lines, linenu/
+CheckEnd	cpplint.py	/^  def CheckEnd(self, filename, clean_lines, linenu/
+CheckEnd	cpplint.py	/^  def CheckEnd(self, filename, clean_lines, linenu/
+CheckForBadCharacters	cpplint.py	/^def CheckForBadCharacters(filename, lines, error):/
+CheckForCopyright	cpplint.py	/^def CheckForCopyright(filename, lines, error):$/
+CheckForFunctionLengths	cpplint.py	/^def CheckForFunctionLengths(filename, clean_lines,/
+CheckForHeaderGuard	cpplint.py	/^def CheckForHeaderGuard(filename, lines, error):$/
+CheckForIncludeWhatYouUse	cpplint.py	/^def CheckForIncludeWhatYouUse(filename, clean_line/
+CheckForMultilineCommentsAndStrings	cpplint.py	/^def CheckForMultilineCommentsAndStrings(filename, /
+CheckForNewlineAtEOF	cpplint.py	/^def CheckForNewlineAtEOF(filename, lines, error):$/
+CheckForNonConstReference	cpplint.py	/^def CheckForNonConstReference(filename, clean_line/
+CheckForNonStandardConstructs	cpplint.py	/^def CheckForNonStandardConstructs(filename, clean_/
+CheckIncludeLine	cpplint.py	/^def CheckIncludeLine(filename, clean_lines, linenu/
+CheckInvalidIncrement	cpplint.py	/^def CheckInvalidIncrement(filename, clean_lines, l/
+CheckLanguage	cpplint.py	/^def CheckLanguage(filename, clean_lines, linenum, /
+CheckMakePairUsesDeduction	cpplint.py	/^def CheckMakePairUsesDeduction(filename, clean_lin/
+CheckNextIncludeOrder	cpplint.py	/^  def CheckNextIncludeOrder(self, header_type):$/
+CheckPosixThreading	cpplint.py	/^def CheckPosixThreading(filename, clean_lines, lin/
+CheckSectionSpacing	cpplint.py	/^def CheckSectionSpacing(filename, clean_lines, cla/
+CheckSpacing	cpplint.py	/^def CheckSpacing(filename, clean_lines, linenum, n/
+CheckSpacingForFunctionCall	cpplint.py	/^def CheckSpacingForFunctionCall(filename, line, li/
+CheckStyle	cpplint.py	/^def CheckStyle(filename, clean_lines, linenum, fil/
+CheckVlogArguments	cpplint.py	/^def CheckVlogArguments(filename, clean_lines, line/
+CleanseComments	cpplint.py	/^def CleanseComments(line):$/
+CleanseRawStrings	cpplint.py	/^def CleanseRawStrings(raw_lines):$/
+CleansedLines	cpplint.py	/^class CleansedLines(object):$/
+CloseExpression	cpplint.py	/^def CloseExpression(clean_lines, linenum, pos):$/
+Count	cpplint.py	/^  def Count(self):$/
+Count	test.h	4
+Count2	test.h	5
+Cumulate	base.cc	/^void Cumulate(VReal* des) {$/
+DelArray	c_util.h	/^inline void DelArray(double** a, int row) {$/
+DiGamma	stat.h	/^inline double DiGamma(double x) {$/
+DiffNum	stl_util.h	/^inline int DiffNum(const VInt &lhs, const VInt &rh/
+E	stl_util.h	46
+End	cpplint.py	/^  def End(self):$/
+EndWith	string_util.cc	/^bool EndWith(const Str &str, const Str &search) {$/
+Error	cpplint.py	/^def Error(filename, linenum, category, confidence,/
+Exp	math_util.h	/^inline void Exp(VReal* v) {$/
+Expect	stat.h	/^inline double Expect(const VReal &pro) {$/
+Extension	cpplint.py	/^  def Extension(self):$/
+Factorial	math_util.h	/^inline double Factorial(int n) {$/
+FileInfo	cpplint.py	/^class FileInfo:$/
+FilesBelongToSameModule	cpplint.py	/^def FilesBelongToSameModule(filename_cc, filename_/
+FindEndOfExpressionInLine	cpplint.py	/^def FindEndOfExpressionInLine(line, startpos, dept/
+FindNextMatchingAngleBracket	cpplint.py	/^def FindNextMatchingAngleBracket(clean_lines, line/
+FindNextMultiLineCommentEnd	cpplint.py	/^def FindNextMultiLineCommentEnd(lines, lineix):$/
+FindNextMultiLineCommentStart	cpplint.py	/^def FindNextMultiLineCommentStart(lines, lineix):$/
+FindPreviousMatchingAngleBracket	cpplint.py	/^def FindPreviousMatchingAngleBracket(clean_lines, /
+FindStartOfExpressionInLine	cpplint.py	/^def FindStartOfExpressionInLine(line, endpos, dept/
+FullName	cpplint.py	/^  def FullName(self):$/
+GetHeaderGuardCPPVariable	cpplint.py	/^def GetHeaderGuardCPPVariable(filename):$/
+GetLineWidth	cpplint.py	/^def GetLineWidth(line):$/
+GetPreviousNonBlankLine	cpplint.py	/^def GetPreviousNonBlankLine(clean_lines, linenum):/
+InNamespaceBody	cpplint.py	/^  def InNamespaceBody(self):$/
+IncrementErrorCount	cpplint.py	/^  def IncrementErrorCount(self, category):$/
+Init	base.cc	/^void Init(int len, double value, VReal* des) {$/
+Init	base.cc	/^void Init(int row, int col, double value, VVReal* /
+Init	base.cc	/^void Init(int len1, int len2, int len3, double val/
+Init	base.cc	/^void Init(int len, int value, VInt* des) {$/
+Init	base.cc	/^void Init(int row, int col, int value, VVInt* des)/
+Init	c_util.h	/^inline void Init(int len, double value, double* de/
+Init	c_util.h	/^inline void Init(int row, int col, double value, d/
+InnerProd	stat.h	/^inline double InnerProd(const V1 &x, const V2 &y) /
+InnermostClass	cpplint.py	/^  def InnermostClass(self):$/
+IsBlankLine	cpplint.py	/^def IsBlankLine(line):$/
+IsCppString	cpplint.py	/^def IsCppString(line):$/
+IsErrorSuppressedByNolint	cpplint.py	/^def IsErrorSuppressedByNolint(category, linenum):$/
+IsFile	io_util.h	/^inline bool IsFile(const Str &path) {$/
+IsInAlphabeticalOrder	cpplint.py	/^  def IsInAlphabeticalOrder(self, clean_lines, lin/
+IsSource	cpplint.py	/^  def IsSource(self):$/
+IsWhiteSpace	string_util.cc	/^bool IsWhiteSpace(char c, const Str &white_space) /
+Iterator	base.h	27
+Join	join.cc	/^Str Join(const VStr &vec, const Str &del) {$/
+Join	join.cc	/^Str Join(const LStr &l, const Str &del) {$/
+Join	join.cc	/^Str Join(const VVStr &vec, const Str &del1, const /
+Join	join.cc	/^Str Join(It beg, It end, StrC &del) {$/
+Join	join.cc	/^Str Join(const VInt &data, const Str &del) {$/
+Join	join.cc	/^Str Join(const SInt &data, StrC &del) {$/
+Join	join.cc	/^Str Join(VVIntC &data, StrC &del1, StrC &del2) {$/
+Join	join.cc	/^Str Join(const VReal &data, const Str &del) {$/
+Join	join.cc	/^Str Join(const VVReal &data, const Str &del1, cons/
+Join	join.cc	/^Str Join(double* str, int len) {$/
+Join	join.cc	/^Str Join(double** str, int len1, int len2) {$/
+Join	join.cc	/^Str Join(const VVVReal &data, StrC &del1, StrC &de/
+JoinKey	join.h	/^inline Str JoinKey(T beg, T end) {$/
+JoinStr	join.h	/^inline Str JoinStr(Iter beg, Iter end, StrC &del) /
+JoinValue	join.h	/^inline Str JoinValue(T beg, T end) {$/
+LStr	type.h	37
+LTrimStr	string_util.cc	/^void LTrimStr(const Str &input, const Str &white_s/
+Log2	math_util.h	/^inline double Log2(double a) {$/
+LogBer	probability.h	/^inline double LogBer(int t, double p) {$/
+LogGamma	stat.h	/^inline double LogGamma(double x) {$/
+LogPartition	stat.h	/^inline double LogPartition(const VReal &data) {$/
+LogPartition	stat.h	/^inline double LogPartition(const VInt &num, const /
+LogSum	stat.h	/^inline double LogSum(double log_a, double log_b) {/
+Lower	string_util.cc	/^Str Lower(const Str &src) {$/
+MIntInt	type.h	23
+MIntReal	type.h	24
+MIntRealCIt	type.h	26
+MIntRealIt	type.h	25
+MIntVReal	type.h	28
+MapToStr	join.h	/^inline Str MapToStr(T beg, T end) {$/
+MapToStr	join.h	/^inline Str MapToStr(const MIntInt &src) {$/
+Match	cpplint.py	/^def Match(pattern, s):$/
+Max	c_util.h	/^inline int Max(double* x, int n) {$/
+Max	stl_util.h	/^inline double Max(const T &data) {$/
+Mcpplint.py	cpplint.py	/^def main():$/
+Mmakefile	makefile	/^main:$/
+MultiNum	math_util.h	/^inline double MultiNum(int len, const VInt &v) {$/
+Multiply	stl_util.h	/^inline void Multiply(const VReal &src, double m, V/
+Multiply	stl_util.h	/^inline void Multiply(const VVReal &src, double m, /
+NewArray	c_util.h	/^inline double** NewArray(int row, int col) {$/
+NextBinarySeq	probability.cc	/^bool NextBinarySeq(VInt* des) {$/
+NextMultiSeq	probability.cc	/^bool NextMultiSeq(VInt* des) {$/
+NoExtension	cpplint.py	/^  def NoExtension(self):$/
+NumLines	cpplint.py	/^  def NumLines(self):$/
+ParseArguments	cpplint.py	/^def ParseArguments(args):$/
+ParseNolintSuppressions	cpplint.py	/^def ParseNolintSuppressions(filename, raw_line, li/
+PrintCategories	cpplint.py	/^def PrintCategories():$/
+PrintErrorCounts	cpplint.py	/^  def PrintErrorCounts(self):$/
+PrintUsage	cpplint.py	/^def PrintUsage(message):$/
+Probability	stat.h	/^inline void Probability(const VReal &lhs, VReal* d/
+ProcessFile	cpplint.py	/^def ProcessFile(filename, vlevel, extra_check_func/
+ProcessFileData	cpplint.py	/^def ProcessFileData(filename, file_extension, line/
+ProcessLine	cpplint.py	/^def ProcessLine(filename, file_extension, clean_li/
+Push	stl_util.h	/^inline void Push(int num, const E &e, C* des) {$/
+Quadratic	stat.h	/^inline double Quadratic(const V &x, const V &y, co/
+RTrimStr	string_util.cc	/^void RTrimStr(const Str &input, const Str &white_s/
+Random	random.h	/^inline int Random(const VReal &data) {$/
+Random	random.h	/^inline int Random(int k) {$/
+Random1	random.h	/^inline double Random1() {$/
+Range	base.h	/^inline void Range(Iterator t, Num_Type beg, int le/
+Range	base.h	/^inline void Range(int beg, int end, int interval, /
+Range	base.h	/^inline void Range(double beg, double end, double i/
+ReadFile	io_util.h	/^inline void ReadFile(const Str &file, VInt* des) {/
+ReadFileToStr	io_util.h	/^inline void ReadFileToStr(const Str &file, Str* st/
+ReadFileToStr	io_util.h	/^inline void ReadFileToStr(const Str &file, const S/
+ReadFileToStr	io_util.h	/^inline Str ReadFileToStr(const Str &file) {$/
+Real	type.h	15
+RemoveMultiLineComments	cpplint.py	/^def RemoveMultiLineComments(filename, lines, error/
+RemoveMultiLineCommentsFromRange	cpplint.py	/^def RemoveMultiLineCommentsFromRange(lines, begin,/
+ReplaceAll	cpplint.py	/^def ReplaceAll(pattern, rep, s):$/
+RepositoryName	cpplint.py	/^  def RepositoryName(self):$/
+ResetErrorCounts	cpplint.py	/^  def ResetErrorCounts(self):$/
+ResetNolintSuppressions	cpplint.py	/^def ResetNolintSuppressions():$/
+ResetSection	cpplint.py	/^  def ResetSection(self):$/
+ReverseCloseExpression	cpplint.py	/^def ReverseCloseExpression(clean_lines, linenum, p/
+SInt	type.h	39
+Sample1	random.h	/^inline int Sample1(double a) {$/
+Search	cpplint.py	/^def Search(pattern, s):$/
+SeenOpenBrace	cpplint.py	/^  def SeenOpenBrace(self):$/
+SetCountingStyle	cpplint.py	/^  def SetCountingStyle(self, counting_style):$/
+SetFilters	cpplint.py	/^  def SetFilters(self, filters):$/
+SetLastHeader	cpplint.py	/^  def SetLastHeader(self, header_path):$/
+SetOutputFormat	cpplint.py	/^  def SetOutputFormat(self, output_format):$/
+SetVerboseLevel	cpplint.py	/^  def SetVerboseLevel(self, level):$/
+Sigmoid	random.h	/^inline double Sigmoid(double a) {$/
+SigmoidSample	random.h	/^inline int SigmoidSample(double a) {$/
+Split	cpplint.py	/^  def Split(self):$/
+SplitStr	string_util.cc	/^void SplitStr(const Str &str, char del, VStr* vec)/
+SplitStr	string_util.cc	/^void SplitStr(const Str &str, const Str &del, VStr/
+Square	base.h	/^inline double Square(double a) {$/
+StartWith	string_util.cc	/^bool StartWith(const Str &str, const Str &search) /
+Str	type.h	30
+StrC	type.h	31
+StrToInt	string_util.cc	/^int StrToInt(const Str &str) {$/
+StrToReal	string_util.cc	/^double StrToReal(const Str &str) {$/
+Subtract	math_util.h	/^inline void Subtract(double m, VReal* v) {$/
+Sum	base.cc	/^int Sum(const VInt &src) {$/
+Sum	base.cc	/^double Sum(const VReal &src) {$/
+Sum	base.cc	/^void Sum(const VVReal &src, VReal* des) {$/
+SumTopN	probability.cc	/^int SumTopN(const VInt &src, int len) {$/
+Time	base.h	47
+Time::GetTime	base.h	/^  double GetTime() {$/
+Time::Start	base.h	/^  void Start() { beg = clock(); }$/
+Time::beg	base.h	54
+ToSet	stl_util.h	/^inline void ToSet(const VInt &src, SInt* des) {$/
+ToStr	string_util.h	/^inline Str ToStr(NumType num) {$/
+ToStr	string_util.h	/^inline Str ToStr(NumType num, int precision) {$/
+Trans	base.cc	/^void Trans(const VVReal &src, VVReal* des) {$/
+TriGamma	stat.h	/^inline double TriGamma(double x) {$/
+TrimStr	string_util.cc	/^Str TrimStr(const Str &input) {$/
+TrimStr	string_util.cc	/^void TrimStr(const Str &input, const Str &white_sp/
+UniformSample	random.h	/^inline void UniformSample(int len, VInt* v) {$/
+Update	cpplint.py	/^  def Update(self, filename, clean_lines, linenum,/
+UpdateIncludeState	cpplint.py	/^def UpdateIncludeState(filename, include_state, io/
+UpdatePreprocessor	cpplint.py	/^  def UpdatePreprocessor(self, line):$/
+Upper	string_util.cc	/^Str Upper(const Str &src) {$/
+V	stat.h	12
+V1	stat.h	23
+VInt	type.h	11
+VIntC	type.h	12
+VMIntReal	type.h	41
+VReal	type.h	16
+VRealC	type.h	17
+VSInt	type.h	40
+VStr	type.h	32
+VStrC	type.h	33
+VVInt	type.h	13
+VVIntC	type.h	14
+VVReal	type.h	18
+VVRealC	type.h	19
+VVStr	type.h	34
+VVStrC	type.h	35
+VVVReal	type.h	20
+VVVRealC	type.h	21
+WriteFile	io_util.h	/^inline void WriteFile(const Str &file, const VInt /
+WriteStrToFile	io_util.h	/^inline void WriteStrToFile(const Str &str, const S/
+_BlockInfo	cpplint.py	/^class _BlockInfo(object):$/
+_ClassInfo	cpplint.py	/^class _ClassInfo(_BlockInfo):$/
+_ClassifyInclude	cpplint.py	/^def _ClassifyInclude(fileinfo, include, is_system)/
+_CollapseStrings	cpplint.py	/^  def _CollapseStrings(elided):$/
+_CppLintState	cpplint.py	/^class _CppLintState(object):$/
+_DropCommonSuffixes	cpplint.py	/^def _DropCommonSuffixes(filename):$/
+_Filters	cpplint.py	/^def _Filters():$/
+_FunctionState	cpplint.py	/^class _FunctionState(object):$/
+_GetTextInside	cpplint.py	/^def _GetTextInside(text, start_pattern):$/
+_IncludeError	cpplint.py	/^class _IncludeError(Exception):$/
+_IncludeState	cpplint.py	/^class _IncludeState(dict):$/
+_IsTestFilename	cpplint.py	/^def _IsTestFilename(filename):$/
+_NamespaceInfo	cpplint.py	/^class _NamespaceInfo(_BlockInfo):$/
+_NestingState	cpplint.py	/^class _NestingState(object):$/
+_OutputFormat	cpplint.py	/^def _OutputFormat():$/
+_PreprocessorInfo	cpplint.py	/^class _PreprocessorInfo(object):$/
+_SetCountingStyle	cpplint.py	/^def _SetCountingStyle(level):$/
+_SetFilters	cpplint.py	/^def _SetFilters(filters):$/
+_SetOutputFormat	cpplint.py	/^def _SetOutputFormat(output_format):$/
+_SetVerboseLevel	cpplint.py	/^def _SetVerboseLevel(level):$/
+_ShouldPrintError	cpplint.py	/^def _ShouldPrintError(category, confidence, linenu/
+_VerboseLevel	cpplint.py	/^def _VerboseLevel():$/
+__init__	cpplint.py	/^  def __init__(self):$/
+__init__	cpplint.py	/^  def __init__(self):$/
+__init__	cpplint.py	/^  def __init__(self):$/
+__init__	cpplint.py	/^  def __init__(self, filename):$/
+__init__	cpplint.py	/^  def __init__(self, lines):$/
+__init__	cpplint.py	/^  def __init__(self, seen_open_brace):$/
+__init__	cpplint.py	/^  def __init__(self, name, class_or_struct, clean_/
+__init__	cpplint.py	/^  def __init__(self, name, linenum):$/
+__init__	cpplint.py	/^  def __init__(self, stack_before_if):$/
+__init__	cpplint.py	/^  def __init__(self):$/
+clean	makefile	/^clean:$/
+cmd	makefile	/^cmd:=\\$/
+int	type.h	23
+int	type.h	24
+int	type.h	28
+name	makefile	/^name:=.\/run\/base_unittest.sh$/
+run	makefile	/^run:$/
+shared	makefile	/^shared:$/
+std::stringstream	string_util.cc	10

@@ -1,0 +1,14 @@
+GTestDir:=$(BaseDir)/thirdparty/gtest
+Include:=\
+  -I$(BaseDir)\
+  -I$(GTestDir)/include\
+  -I$(HOME)/lib/include
+
+Lib:=\
+  -L$(HOME)/lib/lib
+
+Link:=\
+  -lpthread\
+  -lgflags\
+  -lglog
+P:=$(Include) $(Lib) $(Link)

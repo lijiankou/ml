@@ -1,0 +1,150 @@
+.PHONY	makefile	/^.PHONY:main$/
+.PHONY	makefile	/^.PHONY:run$/
+AUC	roc.h	/^inline double AUC(const std::vector<Point> &p, dou/
+AUC	roc.h	/^inline double AUC(const VReal &real, const VReal &/
+BaseDir	makefile	/^BaseDir:=..\/$/
+CROC	roc.h	/^inline void CROC(const EMat &pre, const EMat &real/
+CROC	roc.h	/^inline void CROC(const SpMat &pre, const SpMat &re/
+CheckData	roc.h	/^inline void CheckData(const VReal &r) {$/
+Corpus	document.h	19
+Corpus::Corpus	document.h	/^  Corpus() : num_terms(0), t_words_num(0) {}$/
+Corpus::Count	document.h	/^  int Count(int d, int n) const { return docs[d].c/
+Corpus::Len	document.h	/^  size_t Len() const { return docs.size();}$/
+Corpus::MaxCorpusLen	document.cc	/^size_t Corpus::MaxCorpusLen() const {$/
+Corpus::NewLatent	document.cc	/^void Corpus::NewLatent(VVInt* z) const {$/
+Corpus::NewLatent	document.cc	/^void Corpus::NewLatent(VVReal* z) const {$/
+Corpus::NewLatent	document.cc	/^void Corpus::NewLatent(VVVReal* z, int k) const {$/
+Corpus::RandomOrder	document.cc	/^void Corpus::RandomOrder() {$/
+Corpus::TLen	document.h	/^  size_t TLen(int d) const { return docs[d].TLen()/
+Corpus::TWordsNum	document.h	/^  size_t TWordsNum() const { return t_words_num;}$/
+Corpus::TermNum	document.h	/^  int TermNum() const { return num_terms;}$/
+Corpus::ULen	document.cc	/^void Corpus::ULen(VInt* v) const {$/
+Corpus::ULen	document.h	/^  size_t ULen(int d) const { return docs[d].ULen()/
+Corpus::UpdateTWordsNum	document.cc	/^void Corpus::UpdateTWordsNum() {$/
+Corpus::Word	document.h	/^  int Word(int d, int n) const { return docs[d].wo/
+Corpus::docs	document.h	20
+Corpus::num_terms	document.h	21
+Corpus::t_words_num	document.h	22
+CorpusC	document.h	44
+CreateAdj	eigen.cc	/^void CreateAdj(const SpMat &u_m, EMat* adj) {$/
+CreatePoint	roc.h	/^inline void CreatePoint(const std::vector<T> &vec,/
+CrossEntropy	info.h	/^inline double CrossEntropy(const VReal &lhs, const/
+CrossEntropy	info.h	/^inline double CrossEntropy(const VInt &lhs, const /
+DecisionPro	roc.h	/^inline double DecisionPro(const VReal &real, const/
+Document	document.h	7
+Document	document.h	/^  Document() : total(0) {}$/
+DocumentC	document.h	17
+EMat	eigen.h	14
+EMatToStr	eigen.cc	/^Str EMatToStr(const EMat &m) {$/
+EStep	kmean.cc	/^void EStep(const EMat &data, const VVInt &cluster,/
+EVec	eigen.h	15
+EVecToStr	eigen.cc	/^Str EVecToStr(const EVec &m) {$/
+Error	kmean.cc	/^double Error(const EMat &data, const EMat &center,/
+Extend	eigen.cc	/^void Extend(const TripleVec &src, TripleVec* des) /
+F1Score	roc.h	/^inline double F1Score(const VReal &real, const VRe/
+FilterData	eigen.cc	/^void FilterData(const TripleVec &src,  size_t item/
+Great	roc.h	/^inline bool Great(const T &lhs, const T &rhs) {$/
+InnerProd	eigen.h	/^inline double InnerProd(const SpVec &vec, const EV/
+InnerProd	util.cc	/^double InnerProd(const VReal &lhs, const VReal &rh/
+Join	eigen.cc	/^Str Join(const EMat &data) {$/
+Join	roc.h	/^inline Str Join(const std::vector<Point> &p) {$/
+KMean	kmean.cc	/^void KMean(const EMat &data, int k, int iter, VVIn/
+LogSum	eigen_util.h	/^inline double LogSum(const Vec &data) {$/
+MF	matrix_factorization.h	9
+ML_CROC_H_	roc.h	4
+ML_DOCUMENT_H_	document.h	4
+ML_EIGEN_H_	eigen.h	4
+ML_EIGEN_UTIL_H_	eigen_util.h	4
+ML_INFO_H_	info.h	4
+ML_KMAEN_H_	kmean.h	4
+ML_MATRIX_FACTORIZATION_	matrix_factorization.h	4
+ML_UTIL_H_	util.h	4
+MStep	kmean.cc	/^void MStep(const EMat &data, const EMat &center, V/
+Mat	eigen.h	16
+MatC	eigen.h	22
+Max	eigen.cc	/^std::pair<int, int> Max(const TripleVec &vec) {$/
+Max	matrix_factorization.h	/^inline int Max(const SpMat &mat) {$/
+Mean	util.cc	/^double Mean(const VReal &v) {$/
+Mean	util.cc	/^double Mean(const VVReal &v) {$/
+Mean	util.cc	/^double Mean(const VVVReal &v) {$/
+Min	matrix_factorization.h	/^inline int Min(const SpMat &mat) {$/
+Mmakefile	makefile	/^main:$/
+Normal	info.h	/^inline void Normal(const VInt &src, VReal* des) {$/
+NormalRandom	eigen.cc	/^void NormalRandom(EVec* des) {$/
+NormalRandom	eigen.cc	/^void NormalRandom(EMat *mat) {$/
+NormalSample	util.cc	/^double NormalSample() {$/
+Point	roc.h	78
+Point::x	roc.h	79
+Point::y	roc.h	80
+PrecisionRecall	roc.h	/^inline void PrecisionRecall(const VReal &real, con/
+Quadratic	util.cc	/^double Quadratic(const VReal &x, const VReal &y, c/
+RandomInit	matrix_factorization.h	/^inline void RandomInit(int u, int v, int k, MF* mf/
+RandomInit	util.cc	/^void RandomInit(int len, VReal* des) {$/
+RandomInit	util.cc	/^void RandomInit(int row, int col, VVReal* des) {$/
+RandomInit	util.cc	/^void RandomInit(int len1, int len2, int len3, VVVR/
+RandomOrder	util.cc	/^void RandomOrder(int len, int random_num, VInt* de/
+ReadData	eigen.cc	/^void ReadData(const Str &path, TripleVec* vec) {$/
+ReadData	eigen.cc	/^std::pair<int, int> ReadData(const Str &path, SpMa/
+ReadData	eigen.cc	/^pair<int, int> ReadData(const Str &path, SpMat* tr/
+SGD	matrix_factorization.h	/^inline void SGD(int it_num, double eta, double lam/
+Sample	eigen.cc	/^void Sample(EVec *h) {$/
+Sample	eigen.cc	/^void Sample(EMat *h) {$/
+Sample	eigen.cc	/^void Sample(const EVec &src, EVec *des) {$/
+Sample	util.cc	/^int Sample(const VReal &a) {$/
+SoftmaxSample	util.cc	/^int SoftmaxSample(const VReal &a) {$/
+Sort	roc.h	/^inline void Sort(const EVec &pre, const EVec &real/
+Sort	roc.h	/^inline void Sort(const VReal &real, const VReal &p/
+SpMat	eigen.h	11
+SpMatInIt	eigen.h	12
+SpSort	roc.h	/^inline void SpSort(const SpVec &pre, const SpVec &/
+SpVec	eigen.h	8
+SpVecInIt	eigen.h	9
+SplitData	document.cc	/^void SplitData(const Corpus &c, double value, Corp/
+SplitData	eigen.cc	/^void SplitData(const TripleVec &vec, double p, Tri/
+StrToVReal	eigen.cc	/^void StrToVReal(const Str &str, VReal* m) {$/
+StrToVVReal	eigen.cc	/^void StrToVVReal(const Str &str, VVReal* m) {$/
+Sum	util.cc	/^double Sum(const VReal &v) {$/
+Sum	util.cc	/^double Sum(const VVReal &v) {$/
+Sum	util.cc	/^double Sum(const VVVReal &v) {$/
+T	roc.h	7
+TLen	document.h	/^  inline size_t TLen() const { return total;}$/
+Test	matrix_factorization.h	/^inline double Test(const SpMat &mat, const MF &mf)/
+ToEMat	eigen.cc	/^void ToEMat(const VVReal &v_real, EMat* m) {$/
+ToEVec	eigen.cc	/^void ToEVec(const VReal &v, EVec* m) {$/
+ToTal	roc.h	/^inline void ToTal(const std::vector<T> &vec, int* /
+Triple	eigen.h	24
+TripleVec	eigen.h	25
+ULen	document.h	/^  inline size_t ULen() const { return words.size()/
+VDocument	document.h	16
+VMat	eigen.h	18
+VMatC	eigen.h	20
+Var	util.cc	/^double Var(const VReal &v) {$/
+Var	util.cc	/^double Var(const VVReal &v) {$/
+Var	util.cc	/^double Var(const VVVReal &v) {$/
+Vec	eigen.h	17
+VecC	eigen.h	21
+b_total	matrix_factorization.h	14
+bu	matrix_factorization.h	12
+bv	matrix_factorization.h	13
+cmd	makefile	/^cmd:=\\$/
+counts	document.h	9
+ml	document.cc	10
+ml	info.h	/^namespace ml {$/
+ml	util.cc	5
+ml::Corpus::LoadData	document.cc	/^void Corpus::LoadData(const Str &filename) {$/
+ml::Softmax	util.cc	/^void Softmax(const VReal &a, VReal *b) {$/
+name	makefile	/^name:=.\/run\/info_unittest.sh$/
+name	makefile	/^name:=.\/run\/eigen_app.sh$/
+name	makefile	/^name:=.\/run\/util_unittest.sh$/
+name	makefile	/^name:=.\/run\/mf_app.sh$/
+name	makefile	/^name:=.\/run\/document_unittest.sh$/
+name	makefile	/^name:=.\/run\/eigen_unittest.sh$/
+p	roc.h	8
+r	roc.h	9
+run	makefile	/^run:$/
+std::map	eigen.cc	7
+std::pair	eigen.cc	8
+total	document.h	10
+u	matrix_factorization.h	10
+v	matrix_factorization.h	11
+words	document.h	8

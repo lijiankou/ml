@@ -1,0 +1,110 @@
+10
+
+dir
+176
+file://localhost/home/jd/working/coderepos/thirdparty/Eigen/unsupported/Eigen/src
+file://localhost/home/jd/working/coderepos
+
+
+
+2014-09-12T07:16:12.585469Z
+176
+jd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15df282f-3b80-44bb-947e-2bf91f355a92
+
+BVH
+dir
+
+FFT
+dir
+
+MoreVectorization
+dir
+
+KroneckerProduct
+dir
+
+LevenbergMarquardt
+dir
+
+NonLinearOptimization
+dir
+
+SVD
+dir
+
+MatrixFunctions
+dir
+
+AutoDiff
+dir
+
+SparseExtra
+dir
+
+Polynomials
+dir
+
+Eigenvalues
+dir
+
+NumericalDiff
+dir
+
+IterativeSolvers
+dir
+
+CMakeLists.txt
+file
+
+
+
+
+2014-08-04T10:51:54.000000Z
+8c78291a0bde4acfc056dda019e2b99b
+2014-09-12T07:16:12.585469Z
+176
+jd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+395
+
+Splines
+dir
+
+Skyline
+dir
+

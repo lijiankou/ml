@@ -1,0 +1,60 @@
+.PHONY	makefile	/^.PHONY:main$/
+.PHONY	makefile	/^.PHONY:run$/
+BaseDir	makefile	/^BaseDir:=..\/$/
+COKUS_H	cokus.h	2
+Init	rtm.h	/^  void Init(int term_num) {$/
+InitSS	rtm.h	/^  void InitSS(int k, int v);$/
+K	cokus.h	15
+Likelihood	rtm_var_em.h	/^  double Likelihood(int d, RTMC &m, VecC &ga, Mat /
+M	cokus.h	14
+ML_TOPIC_RTM_H	rtm.h	4
+ML_TOPIC_RTM_VAR_EM_H	rtm_var_em.h	4
+Mmakefile	makefile	/^main:$/
+N	cokus.h	13
+RTM	rtm.h	11
+RTM	rtm.h	/^  RTM(int t_num, int a) : alpha(a), topic_num(t_nu/
+RTMC	rtm.h	29
+RTMSuffStats	rtm.h	32
+RTMSuffStats::InitSS	rtm.cc	/^void RTMSuffStats::InitSS(int k, int v) { $/
+RTMSuffStatsC	rtm.h	38
+Regularization	rtm_var_em.cc	/^Vec Regularization(int k) {$/
+SetZero	rtm.h	/^  void SetZero(int k, int v);$/
+TermNum	rtm.h	/^  int TermNum() const { return ln_w.cols(); }$/
+TopicNum	rtm.h	/^  int TopicNum() const { return ln_w.rows(); }$/
+VarRTM	rtm_var_em.h	12
+VarRTM::EStep	rtm_var_em.cc	/^double VarRTM::EStep(int d, RTMC &m, Mat* z_bar, R/
+VarRTM::Infer	rtm_var_em.cc	/^double VarRTM::Infer(int d, RTMC &m, Vec* ga, Mat*/
+VarRTM::InitVar	rtm_var_em.cc	/^void VarRTM::InitVar(int d, RTMC &m, Vec* digamma,/
+VarRTM::LinkPredict	rtm_var_em.cc	/^double VarRTM::LinkPredict(const SpMat &test, RTMC/
+VarRTM::Load	rtm_var_em.cc	/^void VarRTM::Load(StrC &net_path, StrC &cor_path) /
+VarRTM::MStep	rtm_var_em.cc	/^void VarRTM::MStep(const RTMSuffStats &ss, RTM* m)/
+VarRTM::MaxEta	rtm_var_em.cc	/^void VarRTM::MaxEta(const Mat &z_bar, int rou, RTM/
+VarRTM::RunEM	rtm_var_em.cc	/^void VarRTM::RunEM(SpMat &test, RTM* m) {$/
+VarRTM::ZBar	rtm_var_em.cc	/^Vec VarRTM::ZBar(int doc_id, MatC &phi) const {$/
+VarRTM::ZBar	rtm_var_em.cc	/^void VarRTM::ZBar(VMatC &phi, Mat* m) const {$/
+alpha	rtm.h	12
+b	rtm.h	15
+cmd	makefile	/^cmd:=\\$/
+eta	rtm.h	14
+hiBit	cokus.h	/^#define hiBit(u)       ((u) & 0x80000000U)   \/\/ ma/
+left	cokus.cc	50
+ln_w	rtm.h	13
+loBit	cokus.h	/^#define loBit(u)       ((u) & 0x00000001U)   \/\/ ma/
+loBits	cokus.h	/^#define loBits(u)      ((u) & 0x7FFFFFFFU)   \/\/ ma/
+mixBits	cokus.h	/^#define mixBits(u, v)  (hiBit(u)|loBits(v))  \/\/ mo/
+ml	rtm.cc	5
+ml	rtm_var_em.cc	11
+ml::RTMSuffStats::SetZero	rtm.cc	/^void RTMSuffStats::SetZero(int k, int v) { $/
+ml::VarRTM::Likelihood	rtm_var_em.cc	/^double VarRTM::Likelihood(int d, RTMC &m, VecC &ga/
+myrand	cokus.h	/^inline double myrand() {$/
+name	makefile	/^name:=.\/run\/rtm_app.sh$/
+next	cokus.cc	49
+randomMT	cokus.cc	/^uint32 randomMT(void) {$/
+reloadMT	cokus.cc	/^uint32 reloadMT(void) {$/
+run	makefile	/^run:$/
+seedMT	cokus.cc	/^void seedMT(uint32 seed)$/
+state	cokus.cc	48
+topic	rtm.h	33
+topic_num	rtm.h	16
+topic_sum	rtm.h	34
+uint32	cokus.h	11

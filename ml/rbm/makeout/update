@@ -1,0 +1,58 @@
+include makefile.config
+
+rbm.o:
+	$(CC) $(CXXFLAGS) $(WorkDir)/rbm.cc $(Include) -Wno-deprecated
+
+rbm_util.o:
+	$(CC) $(CXXFLAGS) $(WorkDir)/rbm_util.cc $(Include) -Wno-deprecated
+
+join.o:
+	$(CC) $(CXXFLAGS) $(BaseDir)/base/join.cc $(Include) -Wno-deprecated
+
+base.o:
+	$(CC) $(CXXFLAGS) $(BaseDir)/base/base.cc $(Include) -Wno-deprecated
+
+string_util.o:
+	$(CC) $(CXXFLAGS) $(BaseDir)/base/string_util.cc $(Include) -Wno-deprecated
+
+probability.o:
+	$(CC) $(CXXFLAGS) $(BaseDir)/base/probability.cc $(Include) -Wno-deprecated
+
+util.o:
+	$(CC) $(CXXFLAGS) $(BaseDir)/ml/util.cc $(Include) -Wno-deprecated
+
+eigen.o:
+	$(CC) $(CXXFLAGS) $(BaseDir)/ml/eigen.cc $(Include) -Wno-deprecated
+
+ais.o:
+	$(CC) $(CXXFLAGS) $(WorkDir)/ais.cc $(Include) -Wno-deprecated
+
+repsoftmax.o:
+	$(CC) $(CXXFLAGS) $(WorkDir)/repsoftmax.cc $(Include) -Wno-deprecated
+
+document.o:
+	$(CC) $(CXXFLAGS) $(BaseDir)/ml/document.cc $(Include) -Wno-deprecated
+
+rbm_gaussian.o:
+	$(CC) $(CXXFLAGS) $(BaseDir)/ml/rbm/rbm_gaussian.cc $(Include) -Wno-deprecated
+
+rbm_bin.o:
+	$(CC) $(CXXFLAGS) $(BaseDir)/ml/rbm/rbm_bin.cc $(Include) -Wno-deprecated
+
+crbm.o:
+	$(CC) $(CXXFLAGS) $(BaseDir)/ml/rbm/crbm.cc $(Include) -Wno-deprecated
+
+softmax_crbm.o:
+	$(CC) $(CXXFLAGS) $(BaseDir)/ml/rbm/softmax_crbm.cc $(Include) -Wno-deprecated
+
+kmean.o:
+	$(CC) $(CXXFLAGS) $(BaseDir)/ml/kmean.cc $(Include) -Wno-deprecated
+
+tbm.o:
+	$(CC) $(CXXFLAGS) $(BaseDir)/ml/rbm/tbm.cc $(Include) -Wno-deprecated
+
+hrbm.o:
+	$(CC) $(CXXFLAGS) $(BaseDir)/ml/rbm/hrbm.cc $(Include) -Wno-deprecated
+
+bm_matrix.o:
+	$(CC) $(CXXFLAGS) $(BaseDir)/ml/rbm/bm_matrix.cc $(Include) -Wno-deprecated
